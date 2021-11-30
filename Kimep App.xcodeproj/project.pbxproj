@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44AF07CE2756482400553643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CD2756482400553643 /* AppDelegate.swift */; };
+		44AF07D02756482400553643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CF2756482400553643 /* SceneDelegate.swift */; };
+		44AF07D22756482400553643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07D12756482400553643 /* ViewController.swift */; };
+		44AF07D52756482400553643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D32756482400553643 /* Main.storyboard */; };
+		44AF07D72756482600553643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D62756482600553643 /* Assets.xcassets */; };
+		44AF07DA2756482600553643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D82756482600553643 /* LaunchScreen.storyboard */; };
+		44AF07E52756482600553643 /* Kimep_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07E42756482600553643 /* Kimep_AppTests.swift */; };
+		44AF07EF2756482600553643 /* Kimep_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07EE2756482600553643 /* Kimep_AppUITests.swift */; };
+		44AF07F12756482600553643 /* Kimep_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44AF07E12756482600553643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AF07C22756482400553643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AF07C92756482400553643;
+			remoteInfo = "Kimep App";
+		};
+		44AF07EB2756482600553643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AF07C22756482400553643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AF07C92756482400553643;
+			remoteInfo = "Kimep App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44AF07CA2756482400553643 /* Kimep App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kimep App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AF07CD2756482400553643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44AF07CF2756482400553643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44AF07D12756482400553643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44AF07D42756482400553643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44AF07D62756482600553643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44AF07D92756482600553643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44AF07DB2756482600553643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AF07E02756482600553643 /* Kimep AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kimep AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AF07E42756482600553643 /* Kimep_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppTests.swift; sourceTree = "<group>"; };
+		44AF07EA2756482600553643 /* Kimep AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kimep AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AF07EE2756482600553643 /* Kimep_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppUITests.swift; sourceTree = "<group>"; };
+		44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44AF07C72756482400553643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07DD2756482600553643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07E72756482600553643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AF07C12756482400553643 = {
+			isa = PBXGroup;
+			children = (
+				44AF07CC2756482400553643 /* Kimep App */,
+				44AF07E32756482600553643 /* Kimep AppTests */,
+				44AF07ED2756482600553643 /* Kimep AppUITests */,
+				44AF07CB2756482400553643 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44AF07CB2756482400553643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07CA2756482400553643 /* Kimep App.app */,
+				44AF07E02756482600553643 /* Kimep AppTests.xctest */,
+				44AF07EA2756482600553643 /* Kimep AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44AF07CC2756482400553643 /* Kimep App */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07CD2756482400553643 /* AppDelegate.swift */,
+				44AF07CF2756482400553643 /* SceneDelegate.swift */,
+				44AF07D12756482400553643 /* ViewController.swift */,
+				44AF07D32756482400553643 /* Main.storyboard */,
+				44AF07D62756482600553643 /* Assets.xcassets */,
+				44AF07D82756482600553643 /* LaunchScreen.storyboard */,
+				44AF07DB2756482600553643 /* Info.plist */,
+			);
+			path = "Kimep App";
+			sourceTree = "<group>";
+		};
+		44AF07E32756482600553643 /* Kimep AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07E42756482600553643 /* Kimep_AppTests.swift */,
+			);
+			path = "Kimep AppTests";
+			sourceTree = "<group>";
+		};
+		44AF07ED2756482600553643 /* Kimep AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07EE2756482600553643 /* Kimep_AppUITests.swift */,
+				44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */,
+			);
+			path = "Kimep AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44AF07C92756482400553643 /* Kimep App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AF07F42756482600553643 /* Build configuration list for PBXNativeTarget "Kimep App" */;
+			buildPhases = (
+				44AF07C62756482400553643 /* Sources */,
+				44AF07C72756482400553643 /* Frameworks */,
+				44AF07C82756482400553643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kimep App";
+			productName = "Kimep App";
+			productReference = 44AF07CA2756482400553643 /* Kimep App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44AF07DF2756482600553643 /* Kimep AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AF07F72756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppTests" */;
+			buildPhases = (
+				44AF07DC2756482600553643 /* Sources */,
+				44AF07DD2756482600553643 /* Frameworks */,
+				44AF07DE2756482600553643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AF07E22756482600553643 /* PBXTargetDependency */,
+			);
+			name = "Kimep AppTests";
+			productName = "Kimep AppTests";
+			productReference = 44AF07E02756482600553643 /* Kimep AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44AF07E92756482600553643 /* Kimep AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AF07FA2756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppUITests" */;
+			buildPhases = (
+				44AF07E62756482600553643 /* Sources */,
+				44AF07E72756482600553643 /* Frameworks */,
+				44AF07E82756482600553643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AF07EC2756482600553643 /* PBXTargetDependency */,
+			);
+			name = "Kimep AppUITests";
+			productName = "Kimep AppUITests";
+			productReference = 44AF07EA2756482600553643 /* Kimep AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44AF07C22756482400553643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					44AF07C92756482400553643 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					44AF07DF2756482600553643 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 44AF07C92756482400553643;
+					};
+					44AF07E92756482600553643 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 44AF07C92756482400553643;
+					};
+				};
+			};
+			buildConfigurationList = 44AF07C52756482400553643 /* Build configuration list for PBXProject "Kimep App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44AF07C12756482400553643;
+			productRefGroup = 44AF07CB2756482400553643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44AF07C92756482400553643 /* Kimep App */,
+				44AF07DF2756482600553643 /* Kimep AppTests */,
+				44AF07E92756482600553643 /* Kimep AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44AF07C82756482400553643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF07DA2756482600553643 /* LaunchScreen.storyboard in Resources */,
+				44AF07D72756482600553643 /* Assets.xcassets in Resources */,
+				44AF07D52756482400553643 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07DE2756482600553643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07E82756482600553643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44AF07C62756482400553643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF07D22756482400553643 /* ViewController.swift in Sources */,
+				44AF07CE2756482400553643 /* AppDelegate.swift in Sources */,
+				44AF07D02756482400553643 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07DC2756482600553643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF07E52756482600553643 /* Kimep_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07E62756482600553643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF07EF2756482600553643 /* Kimep_AppUITests.swift in Sources */,
+				44AF07F12756482600553643 /* Kimep_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44AF07E22756482600553643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AF07C92756482400553643 /* Kimep App */;
+			targetProxy = 44AF07E12756482600553643 /* PBXContainerItemProxy */;
+		};
+		44AF07EC2756482600553643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AF07C92756482400553643 /* Kimep App */;
+			targetProxy = 44AF07EB2756482600553643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44AF07D32756482400553643 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AF07D42756482400553643 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44AF07D82756482600553643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AF07D92756482600553643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44AF07F22756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44AF07F32756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44AF07F52756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kimep App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44AF07F62756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kimep App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44AF07F82756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kimep App.app/Kimep App";
+			};
+			name = Debug;
+		};
+		44AF07F92756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kimep App.app/Kimep App";
+			};
+			name = Release;
+		};
+		44AF07FB2756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kimep App";
+			};
+			name = Debug;
+		};
+		44AF07FC2756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kimep App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44AF07C52756482400553643 /* Build configuration list for PBXProject "Kimep App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07F22756482600553643 /* Debug */,
+				44AF07F32756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AF07F42756482600553643 /* Build configuration list for PBXNativeTarget "Kimep App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07F52756482600553643 /* Debug */,
+				44AF07F62756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AF07F72756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07F82756482600553643 /* Debug */,
+				44AF07F92756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AF07FA2756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07FB2756482600553643 /* Debug */,
+				44AF07FC2756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44AF07C22756482400553643 /* Project object */;
+}
