@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07E117DA01ED839E871EF027 /* Pods_Kimep_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81552152B847775BF1BA216B /* Pods_Kimep_App.framework */; };
 		44AF07CE2756482400553643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CD2756482400553643 /* AppDelegate.swift */; };
 		44AF07D02756482400553643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CF2756482400553643 /* SceneDelegate.swift */; };
 		44AF07D22756482400553643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07D12756482400553643 /* ViewController.swift */; };
-		44AF07D52756482400553643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D32756482400553643 /* Main.storyboard */; };
 		44AF07D72756482600553643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D62756482600553643 /* Assets.xcassets */; };
 		44AF07DA2756482600553643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D82756482600553643 /* LaunchScreen.storyboard */; };
 		44AF07E52756482600553643 /* Kimep_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07E42756482600553643 /* Kimep_AppTests.swift */; };
 		44AF07EF2756482600553643 /* Kimep_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07EE2756482600553643 /* Kimep_AppUITests.swift */; };
 		44AF07F12756482600553643 /* Kimep_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */; };
+		44AF07FF2756C80400553643 /* ConstraintExtensions copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07FD2756C7D800553643 /* ConstraintExtensions copy.swift */; };
+		44AF08022756C94E00553643 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF08002756C94900553643 /* Colors.swift */; };
+		44AF0805275907F000553643 /* UITextFieldInsetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */; };
+		44AF080727596D3D00553643 /* ActualGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF080627596D3D00553643 /* ActualGradientButton.swift */; };
+		44AF0809275B673200553643 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44AF0808275B673200553643 /* GoogleService-Info.plist */; };
+		8DF2D92A115F8741EC1D7EFD /* Pods_Kimep_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */; };
+		AC8B69416A46A91D83640494 /* Pods_Kimep_App_Kimep_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0638B8CBDAC57131529C5DA2 /* Pods-Kimep App-Kimep AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App-Kimep AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_App_Kimep_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AF07CA2756482400553643 /* Kimep App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kimep App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AF07CD2756482400553643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AF07CF2756482400553643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44AF07D12756482400553643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44AF07D42756482400553643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44AF07D62756482600553643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44AF07D92756482600553643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44AF07DB2756482600553643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,18 @@
 		44AF07EA2756482600553643 /* Kimep AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kimep AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AF07EE2756482600553643 /* Kimep_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppUITests.swift; sourceTree = "<group>"; };
 		44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44AF07FD2756C7D800553643 /* ConstraintExtensions copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintExtensions copy.swift"; sourceTree = "<group>"; };
+		44AF08002756C94900553643 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldInsetClass.swift; sourceTree = "<group>"; };
+		44AF080627596D3D00553643 /* ActualGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualGradientButton.swift; sourceTree = "<group>"; };
+		44AF0808275B673200553643 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81552152B847775BF1BA216B /* Pods_Kimep_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Kimep AppTests/Pods-Kimep AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D59336049AE7333912661426 /* Pods-Kimep App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App.release.xcconfig"; path = "Target Support Files/Pods-Kimep App/Pods-Kimep App.release.xcconfig"; sourceTree = "<group>"; };
+		F5E5590EA1C8903DBF4B00A1 /* Pods-Kimep App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App.debug.xcconfig"; path = "Target Support Files/Pods-Kimep App/Pods-Kimep App.debug.xcconfig"; sourceTree = "<group>"; };
+		F88E5D78A664C3C31FE73824 /* Pods-Kimep App-Kimep AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App-Kimep AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F89553361DDFCD036111B9F3 /* Pods-Kimep AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep AppTests.release.xcconfig"; path = "Target Support Files/Pods-Kimep AppTests/Pods-Kimep AppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E117DA01ED839E871EF027 /* Pods_Kimep_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF2D92A115F8741EC1D7EFD /* Pods_Kimep_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8B69416A46A91D83640494 /* Pods_Kimep_App_Kimep_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				44AF07E32756482600553643 /* Kimep AppTests */,
 				44AF07ED2756482600553643 /* Kimep AppUITests */,
 				44AF07CB2756482400553643 /* Products */,
+				BF6B8D1B3416A0FD0949CEBF /* Pods */,
+				789F6BFD3FBA8ED1DD873BF0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +127,14 @@
 				44AF07CD2756482400553643 /* AppDelegate.swift */,
 				44AF07CF2756482400553643 /* SceneDelegate.swift */,
 				44AF07D12756482400553643 /* ViewController.swift */,
-				44AF07D32756482400553643 /* Main.storyboard */,
 				44AF07D62756482600553643 /* Assets.xcassets */,
 				44AF07D82756482600553643 /* LaunchScreen.storyboard */,
 				44AF07DB2756482600553643 /* Info.plist */,
+				44AF0808275B673200553643 /* GoogleService-Info.plist */,
+				44AF07FD2756C7D800553643 /* ConstraintExtensions copy.swift */,
+				44AF08002756C94900553643 /* Colors.swift */,
+				44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */,
+				44AF080627596D3D00553643 /* ActualGradientButton.swift */,
 			);
 			path = "Kimep App";
 			sourceTree = "<group>";
@@ -127,6 +156,29 @@
 			path = "Kimep AppUITests";
 			sourceTree = "<group>";
 		};
+		789F6BFD3FBA8ED1DD873BF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81552152B847775BF1BA216B /* Pods_Kimep_App.framework */,
+				1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */,
+				5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6B8D1B3416A0FD0949CEBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5E5590EA1C8903DBF4B00A1 /* Pods-Kimep App.debug.xcconfig */,
+				D59336049AE7333912661426 /* Pods-Kimep App.release.xcconfig */,
+				F88E5D78A664C3C31FE73824 /* Pods-Kimep App-Kimep AppUITests.debug.xcconfig */,
+				0638B8CBDAC57131529C5DA2 /* Pods-Kimep App-Kimep AppUITests.release.xcconfig */,
+				BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */,
+				F89553361DDFCD036111B9F3 /* Pods-Kimep AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AF07F42756482600553643 /* Build configuration list for PBXNativeTarget "Kimep App" */;
 			buildPhases = (
+				F3DB3C489F5F8AB90F3AC196 /* [CP] Check Pods Manifest.lock */,
 				44AF07C62756482400553643 /* Sources */,
 				44AF07C72756482400553643 /* Frameworks */,
 				44AF07C82756482400553643 /* Resources */,
+				95A0B405D878771B1B5B0429 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AF07F72756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppTests" */;
 			buildPhases = (
+				B72BB6A7CB936540AFFECF3D /* [CP] Check Pods Manifest.lock */,
 				44AF07DC2756482600553643 /* Sources */,
 				44AF07DD2756482600553643 /* Frameworks */,
 				44AF07DE2756482600553643 /* Resources */,
@@ -169,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44AF07FA2756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppUITests" */;
 			buildPhases = (
+				8793759B4FBE5D1ADDE4CD39 /* [CP] Check Pods Manifest.lock */,
 				44AF07E62756482600553643 /* Sources */,
 				44AF07E72756482600553643 /* Frameworks */,
 				44AF07E82756482600553643 /* Resources */,
+				9AEB482A7C39C063E4AD87E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +290,7 @@
 			files = (
 				44AF07DA2756482600553643 /* LaunchScreen.storyboard in Resources */,
 				44AF07D72756482600553643 /* Assets.xcassets in Resources */,
-				44AF07D52756482400553643 /* Main.storyboard in Resources */,
+				44AF0809275B673200553643 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +310,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8793759B4FBE5D1ADDE4CD39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kimep App-Kimep AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A0B405D878771B1B5B0429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App/Pods-Kimep App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App/Pods-Kimep App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kimep App/Pods-Kimep App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEB482A7C39C063E4AD87E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72BB6A7CB936540AFFECF3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kimep AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DB3C489F5F8AB90F3AC196 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kimep App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44AF07C62756482400553643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AF080727596D3D00553643 /* ActualGradientButton.swift in Sources */,
+				44AF0805275907F000553643 /* UITextFieldInsetClass.swift in Sources */,
 				44AF07D22756482400553643 /* ViewController.swift in Sources */,
+				44AF08022756C94E00553643 /* Colors.swift in Sources */,
 				44AF07CE2756482400553643 /* AppDelegate.swift in Sources */,
+				44AF07FF2756C80400553643 /* ConstraintExtensions copy.swift in Sources */,
 				44AF07D02756482400553643 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +461,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		44AF07D32756482400553643 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44AF07D42756482400553643 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		44AF07D82756482600553643 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +590,7 @@
 		};
 		44AF07F52756482600553643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E5590EA1C8903DBF4B00A1 /* Pods-Kimep App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +601,6 @@
 				INFOPLIST_FILE = "Kimep App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +618,7 @@
 		};
 		44AF07F62756482600553643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59336049AE7333912661426 /* Pods-Kimep App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +629,6 @@
 				INFOPLIST_FILE = "Kimep App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,6 +646,7 @@
 		};
 		44AF07F82756482600553643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +672,7 @@
 		};
 		44AF07F92756482600553643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89553361DDFCD036111B9F3 /* Pods-Kimep AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +698,7 @@
 		};
 		44AF07FB2756482600553643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88E5D78A664C3C31FE73824 /* Pods-Kimep App-Kimep AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +722,7 @@
 		};
 		44AF07FC2756482600553643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0638B8CBDAC57131529C5DA2 /* Pods-Kimep App-Kimep AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
