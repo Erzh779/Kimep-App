@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E117DA01ED839E871EF027 /* Pods_Kimep_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81552152B847775BF1BA216B /* Pods_Kimep_App.framework */; };
+		44AF07CE2756482400553643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CD2756482400553643 /* AppDelegate.swift */; };
+		44AF07D02756482400553643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CF2756482400553643 /* SceneDelegate.swift */; };
+		44AF07D22756482400553643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07D12756482400553643 /* ViewController.swift */; };
+		44AF07D72756482600553643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D62756482600553643 /* Assets.xcassets */; };
+		44AF07DA2756482600553643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AF07D82756482600553643 /* LaunchScreen.storyboard */; };
+		44AF07E52756482600553643 /* Kimep_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07E42756482600553643 /* Kimep_AppTests.swift */; };
+		44AF07EF2756482600553643 /* Kimep_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07EE2756482600553643 /* Kimep_AppUITests.swift */; };
+		44AF07F12756482600553643 /* Kimep_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */; };
+		44AF07FF2756C80400553643 /* ConstraintExtensions copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07FD2756C7D800553643 /* ConstraintExtensions copy.swift */; };
+		44AF08022756C94E00553643 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF08002756C94900553643 /* Colors.swift */; };
+		44AF0805275907F000553643 /* UITextFieldInsetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */; };
+		44AF080727596D3D00553643 /* ActualGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF080627596D3D00553643 /* ActualGradientButton.swift */; };
+		44AF0809275B673200553643 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44AF0808275B673200553643 /* GoogleService-Info.plist */; };
+		44AF70F327612725000CA595 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70F227612725000CA595 /* ProfileTableViewCell.swift */; };
+		44AF70F527621E47000CA595 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70F427621E47000CA595 /* ProfileModel.swift */; };
+		44AF70F92764ADA1000CA595 /* FirstGradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70F82764ADA1000CA595 /* FirstGradesTableViewCell.swift */; };
+		44AF70FB2764B5D3000CA595 /* GradesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FA2764B5D3000CA595 /* GradesModel.swift */; };
+		44AF70FE276CADD6000CA595 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FD276CADD6000CA595 /* NewsModel.swift */; };
+		44AF7100276CB63C000CA595 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */; };
+		44AF71022771ED0A000CA595 /* ClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */; };
+		44AF71042772012A000CA595 /* ClassesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */; };
+		44AF710627720391000CA595 /* SecondClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */; };
+		44AF7108277205EC000CA595 /* DaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF7107277205EC000CA595 /* DaysModel.swift */; };
+		44CF8E6F275F69A000FBE2C8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E6E275F69A000FBE2C8 /* ProfileViewController.swift */; };
+		44CF8E71275F9B2000FBE2C8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E70275F9B2000FBE2C8 /* NewsViewController.swift */; };
+		44CF8E73275F9B3600FBE2C8 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */; };
+		44CF8E75275F9B5F00FBE2C8 /* GradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */; };
+		44CF8E77275F9B7100FBE2C8 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */; };
+		8DF2D92A115F8741EC1D7EFD /* Pods_Kimep_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */; };
+		AC8B69416A46A91D83640494 /* Pods_Kimep_App_Kimep_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44AF07E12756482600553643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AF07C22756482400553643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AF07C92756482400553643;
+			remoteInfo = "Kimep App";
+		};
+		44AF07EB2756482600553643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AF07C22756482400553643 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AF07C92756482400553643;
+			remoteInfo = "Kimep App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0638B8CBDAC57131529C5DA2 /* Pods-Kimep App-Kimep AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App-Kimep AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_App_Kimep_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AF07CA2756482400553643 /* Kimep App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kimep App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AF07CD2756482400553643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44AF07CF2756482400553643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44AF07D12756482400553643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44AF07D62756482600553643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44AF07D92756482600553643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44AF07DB2756482600553643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AF07E02756482600553643 /* Kimep AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kimep AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AF07E42756482600553643 /* Kimep_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppTests.swift; sourceTree = "<group>"; };
+		44AF07EA2756482600553643 /* Kimep AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kimep AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AF07EE2756482600553643 /* Kimep_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppUITests.swift; sourceTree = "<group>"; };
+		44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kimep_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44AF07FD2756C7D800553643 /* ConstraintExtensions copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintExtensions copy.swift"; sourceTree = "<group>"; };
+		44AF08002756C94900553643 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldInsetClass.swift; sourceTree = "<group>"; };
+		44AF080627596D3D00553643 /* ActualGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualGradientButton.swift; sourceTree = "<group>"; };
+		44AF0808275B673200553643 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44AF70F227612725000CA595 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		44AF70F427621E47000CA595 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		44AF70F82764ADA1000CA595 /* FirstGradesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGradesTableViewCell.swift; sourceTree = "<group>"; };
+		44AF70FA2764B5D3000CA595 /* GradesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesModel.swift; sourceTree = "<group>"; };
+		44AF70FD276CADD6000CA595 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewCell.swift; sourceTree = "<group>"; };
+		44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesCollectionViewCell.swift; sourceTree = "<group>"; };
+		44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondClassesTableViewCell.swift; sourceTree = "<group>"; };
+		44AF7107277205EC000CA595 /* DaysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysModel.swift; sourceTree = "<group>"; };
+		44CF8E6E275F69A000FBE2C8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		44CF8E70275F9B2000FBE2C8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesViewController.swift; sourceTree = "<group>"; };
+		44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81552152B847775BF1BA216B /* Pods_Kimep_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Kimep AppTests/Pods-Kimep AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D59336049AE7333912661426 /* Pods-Kimep App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App.release.xcconfig"; path = "Target Support Files/Pods-Kimep App/Pods-Kimep App.release.xcconfig"; sourceTree = "<group>"; };
+		F5E5590EA1C8903DBF4B00A1 /* Pods-Kimep App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App.debug.xcconfig"; path = "Target Support Files/Pods-Kimep App/Pods-Kimep App.debug.xcconfig"; sourceTree = "<group>"; };
+		F88E5D78A664C3C31FE73824 /* Pods-Kimep App-Kimep AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App-Kimep AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F89553361DDFCD036111B9F3 /* Pods-Kimep AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep AppTests.release.xcconfig"; path = "Target Support Files/Pods-Kimep AppTests/Pods-Kimep AppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44AF07C72756482400553643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E117DA01ED839E871EF027 /* Pods_Kimep_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07DD2756482600553643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF2D92A115F8741EC1D7EFD /* Pods_Kimep_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07E72756482600553643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8B69416A46A91D83640494 /* Pods_Kimep_App_Kimep_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AF07C12756482400553643 = {
+			isa = PBXGroup;
+			children = (
+				44AF07CC2756482400553643 /* Kimep App */,
+				44AF07E32756482600553643 /* Kimep AppTests */,
+				44AF07ED2756482600553643 /* Kimep AppUITests */,
+				44AF07CB2756482400553643 /* Products */,
+				BF6B8D1B3416A0FD0949CEBF /* Pods */,
+				789F6BFD3FBA8ED1DD873BF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44AF07CB2756482400553643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07CA2756482400553643 /* Kimep App.app */,
+				44AF07E02756482600553643 /* Kimep AppTests.xctest */,
+				44AF07EA2756482600553643 /* Kimep AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44AF07CC2756482400553643 /* Kimep App */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07CD2756482400553643 /* AppDelegate.swift */,
+				44AF07CF2756482400553643 /* SceneDelegate.swift */,
+				44AF07D12756482400553643 /* ViewController.swift */,
+				44CF8E70275F9B2000FBE2C8 /* NewsViewController.swift */,
+				44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */,
+				44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */,
+				44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */,
+				44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */,
+				44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */,
+				44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */,
+				44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */,
+				44AF70F82764ADA1000CA595 /* FirstGradesTableViewCell.swift */,
+				44CF8E6E275F69A000FBE2C8 /* ProfileViewController.swift */,
+				44AF70F227612725000CA595 /* ProfileTableViewCell.swift */,
+				44AF70FC2764B5DF000CA595 /* Models */,
+				44AF07D62756482600553643 /* Assets.xcassets */,
+				44AF07D82756482600553643 /* LaunchScreen.storyboard */,
+				44AF07DB2756482600553643 /* Info.plist */,
+				44AF0808275B673200553643 /* GoogleService-Info.plist */,
+				44AF07FD2756C7D800553643 /* ConstraintExtensions copy.swift */,
+				44AF08002756C94900553643 /* Colors.swift */,
+				44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */,
+				44AF080627596D3D00553643 /* ActualGradientButton.swift */,
+			);
+			path = "Kimep App";
+			sourceTree = "<group>";
+		};
+		44AF07E32756482600553643 /* Kimep AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07E42756482600553643 /* Kimep_AppTests.swift */,
+			);
+			path = "Kimep AppTests";
+			sourceTree = "<group>";
+		};
+		44AF07ED2756482600553643 /* Kimep AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44AF07EE2756482600553643 /* Kimep_AppUITests.swift */,
+				44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */,
+			);
+			path = "Kimep AppUITests";
+			sourceTree = "<group>";
+		};
+		44AF70FC2764B5DF000CA595 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44AF70FD276CADD6000CA595 /* NewsModel.swift */,
+				44AF70FA2764B5D3000CA595 /* GradesModel.swift */,
+				44AF70F427621E47000CA595 /* ProfileModel.swift */,
+				44AF7107277205EC000CA595 /* DaysModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		789F6BFD3FBA8ED1DD873BF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81552152B847775BF1BA216B /* Pods_Kimep_App.framework */,
+				1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */,
+				5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6B8D1B3416A0FD0949CEBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5E5590EA1C8903DBF4B00A1 /* Pods-Kimep App.debug.xcconfig */,
+				D59336049AE7333912661426 /* Pods-Kimep App.release.xcconfig */,
+				F88E5D78A664C3C31FE73824 /* Pods-Kimep App-Kimep AppUITests.debug.xcconfig */,
+				0638B8CBDAC57131529C5DA2 /* Pods-Kimep App-Kimep AppUITests.release.xcconfig */,
+				BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */,
+				F89553361DDFCD036111B9F3 /* Pods-Kimep AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44AF07C92756482400553643 /* Kimep App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AF07F42756482600553643 /* Build configuration list for PBXNativeTarget "Kimep App" */;
+			buildPhases = (
+				F3DB3C489F5F8AB90F3AC196 /* [CP] Check Pods Manifest.lock */,
+				44AF07C62756482400553643 /* Sources */,
+				44AF07C72756482400553643 /* Frameworks */,
+				44AF07C82756482400553643 /* Resources */,
+				95A0B405D878771B1B5B0429 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kimep App";
+			productName = "Kimep App";
+			productReference = 44AF07CA2756482400553643 /* Kimep App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44AF07DF2756482600553643 /* Kimep AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AF07F72756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppTests" */;
+			buildPhases = (
+				B72BB6A7CB936540AFFECF3D /* [CP] Check Pods Manifest.lock */,
+				44AF07DC2756482600553643 /* Sources */,
+				44AF07DD2756482600553643 /* Frameworks */,
+				44AF07DE2756482600553643 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AF07E22756482600553643 /* PBXTargetDependency */,
+			);
+			name = "Kimep AppTests";
+			productName = "Kimep AppTests";
+			productReference = 44AF07E02756482600553643 /* Kimep AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44AF07E92756482600553643 /* Kimep AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AF07FA2756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppUITests" */;
+			buildPhases = (
+				8793759B4FBE5D1ADDE4CD39 /* [CP] Check Pods Manifest.lock */,
+				44AF07E62756482600553643 /* Sources */,
+				44AF07E72756482600553643 /* Frameworks */,
+				44AF07E82756482600553643 /* Resources */,
+				9AEB482A7C39C063E4AD87E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AF07EC2756482600553643 /* PBXTargetDependency */,
+			);
+			name = "Kimep AppUITests";
+			productName = "Kimep AppUITests";
+			productReference = 44AF07EA2756482600553643 /* Kimep AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44AF07C22756482400553643 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					44AF07C92756482400553643 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					44AF07DF2756482600553643 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 44AF07C92756482400553643;
+					};
+					44AF07E92756482600553643 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 44AF07C92756482400553643;
+					};
+				};
+			};
+			buildConfigurationList = 44AF07C52756482400553643 /* Build configuration list for PBXProject "Kimep App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44AF07C12756482400553643;
+			productRefGroup = 44AF07CB2756482400553643 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44AF07C92756482400553643 /* Kimep App */,
+				44AF07DF2756482600553643 /* Kimep AppTests */,
+				44AF07E92756482600553643 /* Kimep AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44AF07C82756482400553643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF07DA2756482600553643 /* LaunchScreen.storyboard in Resources */,
+				44AF07D72756482600553643 /* Assets.xcassets in Resources */,
+				44AF0809275B673200553643 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07DE2756482600553643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07E82756482600553643 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8793759B4FBE5D1ADDE4CD39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kimep App-Kimep AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A0B405D878771B1B5B0429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App/Pods-Kimep App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App/Pods-Kimep App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kimep App/Pods-Kimep App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEB482A7C39C063E4AD87E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72BB6A7CB936540AFFECF3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kimep AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DB3C489F5F8AB90F3AC196 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kimep App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44AF07C62756482400553643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF710627720391000CA595 /* SecondClassesTableViewCell.swift in Sources */,
+				44AF70F92764ADA1000CA595 /* FirstGradesTableViewCell.swift in Sources */,
+				44AF080727596D3D00553643 /* ActualGradientButton.swift in Sources */,
+				44AF0805275907F000553643 /* UITextFieldInsetClass.swift in Sources */,
+				44AF71022771ED0A000CA595 /* ClassesTableViewCell.swift in Sources */,
+				44AF70FB2764B5D3000CA595 /* GradesModel.swift in Sources */,
+				44AF7108277205EC000CA595 /* DaysModel.swift in Sources */,
+				44AF07D22756482400553643 /* ViewController.swift in Sources */,
+				44AF08022756C94E00553643 /* Colors.swift in Sources */,
+				44AF71042772012A000CA595 /* ClassesCollectionViewCell.swift in Sources */,
+				44AF70F527621E47000CA595 /* ProfileModel.swift in Sources */,
+				44AF07CE2756482400553643 /* AppDelegate.swift in Sources */,
+				44AF7100276CB63C000CA595 /* NewsTableViewCell.swift in Sources */,
+				44AF07FF2756C80400553643 /* ConstraintExtensions copy.swift in Sources */,
+				44CF8E71275F9B2000FBE2C8 /* NewsViewController.swift in Sources */,
+				44CF8E73275F9B3600FBE2C8 /* ClassesViewController.swift in Sources */,
+				44CF8E6F275F69A000FBE2C8 /* ProfileViewController.swift in Sources */,
+				44AF70F327612725000CA595 /* ProfileTableViewCell.swift in Sources */,
+				44AF70FE276CADD6000CA595 /* NewsModel.swift in Sources */,
+				44AF07D02756482400553643 /* SceneDelegate.swift in Sources */,
+				44CF8E75275F9B5F00FBE2C8 /* GradesViewController.swift in Sources */,
+				44CF8E77275F9B7100FBE2C8 /* ScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07DC2756482600553643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF07E52756482600553643 /* Kimep_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AF07E62756482600553643 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AF07EF2756482600553643 /* Kimep_AppUITests.swift in Sources */,
+				44AF07F12756482600553643 /* Kimep_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44AF07E22756482600553643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AF07C92756482400553643 /* Kimep App */;
+			targetProxy = 44AF07E12756482600553643 /* PBXContainerItemProxy */;
+		};
+		44AF07EC2756482600553643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AF07C92756482400553643 /* Kimep App */;
+			targetProxy = 44AF07EB2756482600553643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44AF07D82756482600553643 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AF07D92756482600553643 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44AF07F22756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44AF07F32756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44AF07F52756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E5590EA1C8903DBF4B00A1 /* Pods-Kimep App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kimep App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44AF07F62756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59336049AE7333912661426 /* Pods-Kimep App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kimep App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44AF07F82756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kimep App.app/Kimep App";
+			};
+			name = Debug;
+		};
+		44AF07F92756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89553361DDFCD036111B9F3 /* Pods-Kimep AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kimep App.app/Kimep App";
+			};
+			name = Release;
+		};
+		44AF07FB2756482600553643 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88E5D78A664C3C31FE73824 /* Pods-Kimep App-Kimep AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kimep App";
+			};
+			name = Debug;
+		};
+		44AF07FC2756482600553643 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0638B8CBDAC57131529C5DA2 /* Pods-Kimep App-Kimep AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KUADC9DKF;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Taipov-Enteprise.Kimep-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kimep App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44AF07C52756482400553643 /* Build configuration list for PBXProject "Kimep App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07F22756482600553643 /* Debug */,
+				44AF07F32756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AF07F42756482600553643 /* Build configuration list for PBXNativeTarget "Kimep App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07F52756482600553643 /* Debug */,
+				44AF07F62756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AF07F72756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07F82756482600553643 /* Debug */,
+				44AF07F92756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AF07FA2756482600553643 /* Build configuration list for PBXNativeTarget "Kimep AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AF07FB2756482600553643 /* Debug */,
+				44AF07FC2756482600553643 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44AF07C22756482400553643 /* Project object */;
+}
