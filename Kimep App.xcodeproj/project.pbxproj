@@ -21,6 +21,21 @@
 		44AF0805275907F000553643 /* UITextFieldInsetClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */; };
 		44AF080727596D3D00553643 /* ActualGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF080627596D3D00553643 /* ActualGradientButton.swift */; };
 		44AF0809275B673200553643 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44AF0808275B673200553643 /* GoogleService-Info.plist */; };
+		44AF70F327612725000CA595 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70F227612725000CA595 /* ProfileTableViewCell.swift */; };
+		44AF70F527621E47000CA595 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70F427621E47000CA595 /* ProfileModel.swift */; };
+		44AF70F92764ADA1000CA595 /* FirstGradesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70F82764ADA1000CA595 /* FirstGradesTableViewCell.swift */; };
+		44AF70FB2764B5D3000CA595 /* GradesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FA2764B5D3000CA595 /* GradesModel.swift */; };
+		44AF70FE276CADD6000CA595 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FD276CADD6000CA595 /* NewsModel.swift */; };
+		44AF7100276CB63C000CA595 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */; };
+		44AF71022771ED0A000CA595 /* ClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */; };
+		44AF71042772012A000CA595 /* ClassesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */; };
+		44AF710627720391000CA595 /* SecondClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */; };
+		44AF7108277205EC000CA595 /* DaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF7107277205EC000CA595 /* DaysModel.swift */; };
+		44CF8E6F275F69A000FBE2C8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E6E275F69A000FBE2C8 /* ProfileViewController.swift */; };
+		44CF8E71275F9B2000FBE2C8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E70275F9B2000FBE2C8 /* NewsViewController.swift */; };
+		44CF8E73275F9B3600FBE2C8 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */; };
+		44CF8E75275F9B5F00FBE2C8 /* GradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */; };
+		44CF8E77275F9B7100FBE2C8 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */; };
 		8DF2D92A115F8741EC1D7EFD /* Pods_Kimep_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */; };
 		AC8B69416A46A91D83640494 /* Pods_Kimep_App_Kimep_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +77,21 @@
 		44AF0803275907EC00553643 /* UITextFieldInsetClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldInsetClass.swift; sourceTree = "<group>"; };
 		44AF080627596D3D00553643 /* ActualGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualGradientButton.swift; sourceTree = "<group>"; };
 		44AF0808275B673200553643 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44AF70F227612725000CA595 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		44AF70F427621E47000CA595 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		44AF70F82764ADA1000CA595 /* FirstGradesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGradesTableViewCell.swift; sourceTree = "<group>"; };
+		44AF70FA2764B5D3000CA595 /* GradesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesModel.swift; sourceTree = "<group>"; };
+		44AF70FD276CADD6000CA595 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewCell.swift; sourceTree = "<group>"; };
+		44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesCollectionViewCell.swift; sourceTree = "<group>"; };
+		44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondClassesTableViewCell.swift; sourceTree = "<group>"; };
+		44AF7107277205EC000CA595 /* DaysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysModel.swift; sourceTree = "<group>"; };
+		44CF8E6E275F69A000FBE2C8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		44CF8E70275F9B2000FBE2C8 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesViewController.swift; sourceTree = "<group>"; };
+		44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81552152B847775BF1BA216B /* Pods_Kimep_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Kimep AppTests/Pods-Kimep AppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +157,18 @@
 				44AF07CD2756482400553643 /* AppDelegate.swift */,
 				44AF07CF2756482400553643 /* SceneDelegate.swift */,
 				44AF07D12756482400553643 /* ViewController.swift */,
+				44CF8E70275F9B2000FBE2C8 /* NewsViewController.swift */,
+				44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */,
+				44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */,
+				44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */,
+				44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */,
+				44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */,
+				44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */,
+				44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */,
+				44AF70F82764ADA1000CA595 /* FirstGradesTableViewCell.swift */,
+				44CF8E6E275F69A000FBE2C8 /* ProfileViewController.swift */,
+				44AF70F227612725000CA595 /* ProfileTableViewCell.swift */,
+				44AF70FC2764B5DF000CA595 /* Models */,
 				44AF07D62756482600553643 /* Assets.xcassets */,
 				44AF07D82756482600553643 /* LaunchScreen.storyboard */,
 				44AF07DB2756482600553643 /* Info.plist */,
@@ -154,6 +196,17 @@
 				44AF07F02756482600553643 /* Kimep_AppUITestsLaunchTests.swift */,
 			);
 			path = "Kimep AppUITests";
+			sourceTree = "<group>";
+		};
+		44AF70FC2764B5DF000CA595 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44AF70FD276CADD6000CA595 /* NewsModel.swift */,
+				44AF70FA2764B5D3000CA595 /* GradesModel.swift */,
+				44AF70F427621E47000CA595 /* ProfileModel.swift */,
+				44AF7107277205EC000CA595 /* DaysModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		789F6BFD3FBA8ED1DD873BF0 /* Frameworks */ = {
@@ -418,13 +471,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AF710627720391000CA595 /* SecondClassesTableViewCell.swift in Sources */,
+				44AF70F92764ADA1000CA595 /* FirstGradesTableViewCell.swift in Sources */,
 				44AF080727596D3D00553643 /* ActualGradientButton.swift in Sources */,
 				44AF0805275907F000553643 /* UITextFieldInsetClass.swift in Sources */,
+				44AF71022771ED0A000CA595 /* ClassesTableViewCell.swift in Sources */,
+				44AF70FB2764B5D3000CA595 /* GradesModel.swift in Sources */,
+				44AF7108277205EC000CA595 /* DaysModel.swift in Sources */,
 				44AF07D22756482400553643 /* ViewController.swift in Sources */,
 				44AF08022756C94E00553643 /* Colors.swift in Sources */,
+				44AF71042772012A000CA595 /* ClassesCollectionViewCell.swift in Sources */,
+				44AF70F527621E47000CA595 /* ProfileModel.swift in Sources */,
 				44AF07CE2756482400553643 /* AppDelegate.swift in Sources */,
+				44AF7100276CB63C000CA595 /* NewsTableViewCell.swift in Sources */,
 				44AF07FF2756C80400553643 /* ConstraintExtensions copy.swift in Sources */,
+				44CF8E71275F9B2000FBE2C8 /* NewsViewController.swift in Sources */,
+				44CF8E73275F9B3600FBE2C8 /* ClassesViewController.swift in Sources */,
+				44CF8E6F275F69A000FBE2C8 /* ProfileViewController.swift in Sources */,
+				44AF70F327612725000CA595 /* ProfileTableViewCell.swift in Sources */,
+				44AF70FE276CADD6000CA595 /* NewsModel.swift in Sources */,
 				44AF07D02756482400553643 /* SceneDelegate.swift in Sources */,
+				44CF8E75275F9B5F00FBE2C8 /* GradesViewController.swift in Sources */,
+				44CF8E77275F9B7100FBE2C8 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -578,7 +646,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

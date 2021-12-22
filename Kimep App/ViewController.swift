@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     
     
     
+    
+    
     let emailTextField = UITextField()
     
     let passTextField = UITextField()
@@ -169,7 +171,7 @@ class ViewController: UIViewController {
         logInButton.layer.insertSublayer(buttonGradient, at: 0)
         logInButton.layer.addSublayer(buttonGradient)
        
-        
+        logInButton.addTarget(self, action: #selector(ViewController.logInButtonTapped(_:)), for: .touchUpInside)
         
         view.addSubview(logInButton)
         
@@ -222,27 +224,62 @@ class ViewController: UIViewController {
     
     @objc func logInButtonTapped(_ sender: UIButton) {
         
+//        let vc = ProfileViewController()
+//        vc.modalPresentationStyle = .fullScreen
+//        self.present(vc, animated: true, completion: nil)
+//
+        let navVC = UINavigationController()
         
-//        let email = emailTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-//        let password = passTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
-//        
-//        // Signing in the user
-//        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
-//            
-//            if error != nil {
-//                // Couldn't sign in
-//                self.errorLabel.text = error!.localizedDescription
-//                self.errorLabel.alpha = 1
-//            }
-//            else {
-//                
-//                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
-//                
-//                self.view.window?.rootViewController = homeViewController
-//                self.view.window?.makeKeyAndVisible()
-//            }
-//        }
+        navVC.navigationBar.tintColor = .white
         
+        
+        
+        let vc1 = UINavigationController(rootViewController: NewsViewController())
+        vc1.title = "News"
+       
+        let vc2 =  UINavigationController(rootViewController: ClassesViewController())
+        vc2.title = "Classes"
+        let vc3 = UINavigationController(rootViewController: ScanViewController())
+        vc3.title = "Scan"
+        let vc4 = UINavigationController(rootViewController: GradesViewController())
+        vc4.title = "Grades"
+        let vc5 = UINavigationController(rootViewController: ProfileViewController())
+        vc5.title = "Profile"
+        
+        [vc1,vc2,vc3,vc4,vc5].forEach { vc in
+            
+            let textAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white, NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 24)]
+            vc.navigationBar.titleTextAttributes = textAttributes
+          
+//            vc.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+//            vc.navigationController?.navigationBar.shadowImage = UIImage()
+            vc.navigationBar.setBackgroundImage(UIImage(), for: .default)
+            vc.navigationBar.shadowImage = UIImage()
+            vc.navigationBar.isTranslucent = true
+            
+            
+        }
+        
+        let tabBarVC = UITabBarController()
+        tabBarVC.tabBar.backgroundColor = .white
+        tabBarVC.tabBar.tintColor = Colors.tabBar
+        tabBarVC.tabBar.barTintColor = .white
+        tabBarVC.setViewControllers([vc1, vc2, vc3, vc4, vc5], animated: false)
+        
+        tabBarVC.modalPresentationStyle = .fullScreen
+        present(tabBarVC, animated: true, completion: nil)
+        
+        guard let items = tabBarVC.tabBar.items else {
+            
+            return
+            
+        }
+        
+        let images = ["News", "Classes", "Scan", "Grades", "Profile"]
+        
+        for x in 0..<items.count {
+            items[x].image = UIImage(named: images[x])
+        }
         
         
     }
@@ -266,7 +303,7 @@ class ViewController: UIViewController {
         someLayer.path = path.cgPath
         
         
-        someLayer.fillColor = UIColor.orange.cgColor
+        
         
         backGroundGradient.frame = path.bounds
         backGroundGradient.colors = [ Colors.colorTop, Colors.colorBottom]
@@ -311,6 +348,8 @@ func addShadow(shadowColor: CGColor = UIColor.black.cgColor,
             layer.shadowRadius = shadowRadius
             layer.masksToBounds = false
         }
+    
+    
 }
 extension UITextField {
     func setLeftPaddingPoints(_ amount:CGFloat){
