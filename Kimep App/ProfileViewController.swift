@@ -155,6 +155,7 @@ extension ProfileViewController : UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProfileTableViewCell", for: indexPath) as! ProfileTableViewCell
         cell.selectionStyle = .none
+        cell.backgroundColor = .white
         cell.generateCells(model: infoArray[indexPath.item])
        
      

@@ -116,6 +116,7 @@ extension GradesViewController : UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "FirstGradesTableViewCell", for: indexPath) as! FirstGradesTableViewCell
         cell.selectionStyle = .none
+        cell.backgroundColor = .white
         cell.generateCells(model: gradesArray[indexPath.item])
 //        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 //        cell.textLabel?.text = "section: \(indexPath.section), row: \(indexPath.row)"

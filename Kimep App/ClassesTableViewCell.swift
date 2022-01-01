@@ -69,13 +69,6 @@ class ClassesTableViewCell: UITableViewCell {
     
     func setUpCollectionView() {
         
-        collectionView.register(ClassesCollectionViewCell.self, forCellWithReuseIdentifier: "ClassesCollectionViewCell")
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        collectionView.backgroundColor = .cyan
-        
-        contentView.addSubview(collectionView)
-        
         
     }
     
@@ -92,38 +85,5 @@ class ClassesTableViewCell: UITableViewCell {
 }
 
 
-extension ClassesTableViewCell : UICollectionViewDelegateFlowLayout {
-    
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 64, height: 80)
-        
-        
-        
-    }
-    
-  
 
-    
-}
-extension ClassesTableViewCell : UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return daysArray.count
-        
-    }
-    
-    
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ClassesCollectionViewCell", for: indexPath) as! ClassesCollectionViewCell
-        cell.generateCells(model: daysArray[indexPath.item])
-        return cell
-    }
-    
-}
 

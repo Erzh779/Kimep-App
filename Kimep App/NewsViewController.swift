@@ -34,8 +34,9 @@ class NewsViewController: UIViewController {
     }
     
     func setUpViews() {
-        
+   
         view.addSubview(tableView)
+        
         
     }
     
@@ -72,6 +73,7 @@ extension NewsViewController : UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "NewsTableViewCell", for: indexPath) as! NewsTableViewCell
         cell.generateCells(model: newsArray[indexPath.item])
         cell.selectionStyle = .none
+        cell.backgroundColor = .white
         return cell
     }
     

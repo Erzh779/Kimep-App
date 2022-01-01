@@ -22,4 +22,11 @@ class Colors  {
     
     static let grayCard = UIColor(red: 0.75, green: 0.75, blue: 0.75, alpha: 1.00)
     
+    static let timeColor = UIColor(red: 0.35, green: 0.78, blue: 0.20, alpha: 1.00)
+    
+    static let sectionColor = UIColor(red: 0.75, green: 0.75, blue: 0.75, alpha: 1.00)
+    
+    
+
+    
 }

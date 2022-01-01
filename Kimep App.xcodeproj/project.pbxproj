@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07E117DA01ED839E871EF027 /* Pods_Kimep_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81552152B847775BF1BA216B /* Pods_Kimep_App.framework */; };
+		44966942277B1DE600E63A00 /* RegistrationCategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44966941277B1DE600E63A00 /* RegistrationCategoriesModel.swift */; };
 		44AF07CE2756482400553643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CD2756482400553643 /* AppDelegate.swift */; };
 		44AF07D02756482400553643 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07CF2756482400553643 /* SceneDelegate.swift */; };
 		44AF07D22756482400553643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF07D12756482400553643 /* ViewController.swift */; };
@@ -27,7 +28,6 @@
 		44AF70FB2764B5D3000CA595 /* GradesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FA2764B5D3000CA595 /* GradesModel.swift */; };
 		44AF70FE276CADD6000CA595 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FD276CADD6000CA595 /* NewsModel.swift */; };
 		44AF7100276CB63C000CA595 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */; };
-		44AF71022771ED0A000CA595 /* ClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */; };
 		44AF71042772012A000CA595 /* ClassesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */; };
 		44AF710627720391000CA595 /* SecondClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */; };
 		44AF7108277205EC000CA595 /* DaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AF7107277205EC000CA595 /* DaysModel.swift */; };
@@ -36,6 +36,9 @@
 		44CF8E73275F9B3600FBE2C8 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */; };
 		44CF8E75275F9B5F00FBE2C8 /* GradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */; };
 		44CF8E77275F9B7100FBE2C8 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */; };
+		44DFD89D2775EC2600166D04 /* ClassesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFD89C2775EC2600166D04 /* ClassesModel.swift */; };
+		44DFD89F2779D92300166D04 /* ClassesRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFD89E2779D92300166D04 /* ClassesRegistrationViewController.swift */; };
+		44DFD8A1277A039900166D04 /* RegistrationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFD8A0277A039900166D04 /* RegistrationCollectionViewCell.swift */; };
 		8DF2D92A115F8741EC1D7EFD /* Pods_Kimep_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */; };
 		AC8B69416A46A91D83640494 /* Pods_Kimep_App_Kimep_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,7 @@
 /* Begin PBXFileReference section */
 		0638B8CBDAC57131529C5DA2 /* Pods-Kimep App-Kimep AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep App-Kimep AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Kimep App-Kimep AppUITests/Pods-Kimep App-Kimep AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1218E2B2385C70D212BFB543 /* Pods_Kimep_App_Kimep_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_App_Kimep_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44966941277B1DE600E63A00 /* RegistrationCategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCategoriesModel.swift; sourceTree = "<group>"; };
 		44AF07CA2756482400553643 /* Kimep App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kimep App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AF07CD2756482400553643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44AF07CF2756482400553643 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +87,6 @@
 		44AF70FA2764B5D3000CA595 /* GradesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesModel.swift; sourceTree = "<group>"; };
 		44AF70FD276CADD6000CA595 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
-		44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewCell.swift; sourceTree = "<group>"; };
 		44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesCollectionViewCell.swift; sourceTree = "<group>"; };
 		44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondClassesTableViewCell.swift; sourceTree = "<group>"; };
 		44AF7107277205EC000CA595 /* DaysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysModel.swift; sourceTree = "<group>"; };
@@ -92,6 +95,9 @@
 		44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
 		44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesViewController.swift; sourceTree = "<group>"; };
 		44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		44DFD89C2775EC2600166D04 /* ClassesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesModel.swift; sourceTree = "<group>"; };
+		44DFD89E2779D92300166D04 /* ClassesRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesRegistrationViewController.swift; sourceTree = "<group>"; };
+		44DFD8A0277A039900166D04 /* RegistrationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCollectionViewCell.swift; sourceTree = "<group>"; };
 		5B04D2914222ABF99E52CC58 /* Pods_Kimep_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		81552152B847775BF1BA216B /* Pods_Kimep_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kimep_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB7B040E33C92FD28B958E6 /* Pods-Kimep AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kimep AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Kimep AppTests/Pods-Kimep AppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,9 +166,10 @@
 				44CF8E70275F9B2000FBE2C8 /* NewsViewController.swift */,
 				44AF70FF276CB63C000CA595 /* NewsTableViewCell.swift */,
 				44CF8E72275F9B3600FBE2C8 /* ClassesViewController.swift */,
-				44AF71012771ED0A000CA595 /* ClassesTableViewCell.swift */,
 				44AF71032772012A000CA595 /* ClassesCollectionViewCell.swift */,
 				44AF710527720391000CA595 /* SecondClassesTableViewCell.swift */,
+				44DFD89E2779D92300166D04 /* ClassesRegistrationViewController.swift */,
+				44DFD8A0277A039900166D04 /* RegistrationCollectionViewCell.swift */,
 				44CF8E76275F9B7100FBE2C8 /* ScanViewController.swift */,
 				44CF8E74275F9B5F00FBE2C8 /* GradesViewController.swift */,
 				44AF70F82764ADA1000CA595 /* FirstGradesTableViewCell.swift */,
@@ -202,6 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				44AF70FD276CADD6000CA595 /* NewsModel.swift */,
+				44DFD89C2775EC2600166D04 /* ClassesModel.swift */,
+				44966941277B1DE600E63A00 /* RegistrationCategoriesModel.swift */,
 				44AF70FA2764B5D3000CA595 /* GradesModel.swift */,
 				44AF70F427621E47000CA595 /* ProfileModel.swift */,
 				44AF7107277205EC000CA595 /* DaysModel.swift */,
@@ -474,11 +483,13 @@
 				44AF710627720391000CA595 /* SecondClassesTableViewCell.swift in Sources */,
 				44AF70F92764ADA1000CA595 /* FirstGradesTableViewCell.swift in Sources */,
 				44AF080727596D3D00553643 /* ActualGradientButton.swift in Sources */,
+				44DFD89D2775EC2600166D04 /* ClassesModel.swift in Sources */,
 				44AF0805275907F000553643 /* UITextFieldInsetClass.swift in Sources */,
-				44AF71022771ED0A000CA595 /* ClassesTableViewCell.swift in Sources */,
 				44AF70FB2764B5D3000CA595 /* GradesModel.swift in Sources */,
+				44966942277B1DE600E63A00 /* RegistrationCategoriesModel.swift in Sources */,
 				44AF7108277205EC000CA595 /* DaysModel.swift in Sources */,
 				44AF07D22756482400553643 /* ViewController.swift in Sources */,
+				44DFD89F2779D92300166D04 /* ClassesRegistrationViewController.swift in Sources */,
 				44AF08022756C94E00553643 /* Colors.swift in Sources */,
 				44AF71042772012A000CA595 /* ClassesCollectionViewCell.swift in Sources */,
 				44AF70F527621E47000CA595 /* ProfileModel.swift in Sources */,
@@ -487,6 +498,7 @@
 				44AF07FF2756C80400553643 /* ConstraintExtensions copy.swift in Sources */,
 				44CF8E71275F9B2000FBE2C8 /* NewsViewController.swift in Sources */,
 				44CF8E73275F9B3600FBE2C8 /* ClassesViewController.swift in Sources */,
+				44DFD8A1277A039900166D04 /* RegistrationCollectionViewCell.swift in Sources */,
 				44CF8E6F275F69A000FBE2C8 /* ProfileViewController.swift in Sources */,
 				44AF70F327612725000CA595 /* ProfileTableViewCell.swift in Sources */,
 				44AF70FE276CADD6000CA595 /* NewsModel.swift in Sources */,

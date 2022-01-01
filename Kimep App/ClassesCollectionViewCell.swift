@@ -28,28 +28,31 @@ class ClassesCollectionViewCell: UICollectionViewCell {
     
     func setUpViews() {
         
-        cardView.backgroundColor = Colors.grayCard
+        
+        contentView.backgroundColor = Colors.grayCard
+        cardView.layer.cornerRadius = 10
         numLabel.textColor = .white
         numLabel.font = UIFont.boldSystemFont(ofSize: 24)
         dayLabel.textColor = .white
         dayLabel.font = UIFont.systemFont(ofSize: 16)
         
         contentView.addSubview(cardView)
-        cardView.addSubview(numLabel)
-        cardView.addSubview(dayLabel)
+        contentView.addSubview(numLabel)
+        contentView.addSubview(dayLabel)
         
         
     }
     
     func setUpConstraints() {
         
-        cardView.setAnchor(top: contentView.topAnchor, left: contentView.leftAnchor, bottom: contentView.bottomAnchor, right: contentView.rightAnchor, paddingTop: 12, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, height: 80)
-        numLabel.setAnchor(top: cardView.topAnchor, left: nil, bottom: nil, right: nil, paddingTop: 8, paddingLeft: 0, paddingBottom: 0, paddingRight: 0)
-        numLabel.centerXAnchor.constraint(equalTo: cardView.centerXAnchor).isActive = true
+//        cardView.setAnchor(top: nil, left: contentView.leftAnchor, bottom: nil, right: contentView.rightAnchor, paddingTop: 12, paddingLeft: 0, paddingBottom: 0, paddingRight: 0, height: 80)
+//        cardView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
+        numLabel.setAnchor(top: contentView.topAnchor, left: nil, bottom: nil, right: nil, paddingTop: 8, paddingLeft: 0, paddingBottom: 0, paddingRight: 0)
+        numLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
         
-        dayLabel.setAnchor(top: numLabel.bottomAnchor, left: nil, bottom: contentView.bottomAnchor, right: nil, paddingTop: 4, paddingLeft: 0, paddingBottom: 0, paddingRight: 0)
+        dayLabel.setAnchor(top: numLabel.bottomAnchor, left: nil, bottom: nil, right: nil, paddingTop: 4, paddingLeft: 0, paddingBottom: 0, paddingRight: 0)
         
-        dayLabel.centerXAnchor.constraint(equalTo: cardView.centerXAnchor).isActive = true
+        dayLabel.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true
         
         
         
